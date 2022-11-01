@@ -46,3 +46,12 @@ a {
     font-size: small;
 }
 
+#img_1 {
+    max-width: 53.5%; 
+}
+
+#img_2 {
+    float: right;
+    max-width: 45.75%;
+}
+
