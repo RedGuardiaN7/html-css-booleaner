@@ -3,7 +3,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     background-image: url(img/pattern.png);
-    background-color: rgba(77,161,255,255);
+    background-color: rgba(77, 161, 255, 255);
     background-size: 40%;
     background-position: 10% -15%;
 }
@@ -11,7 +11,7 @@ header {
 #logo {
     max-width: 200px;
     max-height: 100px;
-    padding-top: 50px;    
+    padding-top: 50px;
     padding-left: 5px;
     padding-bottom: 10px;
 }
@@ -20,13 +20,13 @@ main {
     max-width: 50%;
     margin-left: auto;
     margin-right: auto;
-}  
+}
 
 h1 {
     margin-top: 10px;
     margin-bottom: 5px;
     margin-left: 5px;
-    
+
 }
 
 #subtitle {
@@ -36,7 +36,7 @@ h1 {
 }
 
 a {
-    color:rgb(0, 181, 226);
+    color: rgb(0, 181, 226);
     text-decoration: none;
 }
 
@@ -49,30 +49,54 @@ a {
 }
 
 #img_1 {
-    max-width: 53.5%; 
+    max-width: 53.5%;
 }
 
 #img_2 {
-    float: right;
     max-width: 45.75%;
 }
 
 #photo_subtitle {
-    font-size:x-small;
+    font-size: x-small;
     margin-top: 3px;
     font-weight: bold;
 }
 
 th {
     text-align: left;
-    background-color: rgb(26,170,230);
+    background-color: rgb(26, 170, 230);
     color: white
 }
 
 tr:nth-child(odd) {
-    background-color: rgb(178,230,242);
+    background-color: rgb(178, 230, 242);
 }
 
 table {
     border-spacing: 0px;
+}
+
+footer {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    color: gray;
+    font-weight: bold;
+}
+
+.final_images {
+    max-width: 20%;
+    margin: 2px;
+}
+
+.container {
+    position: relative;
+}
+
+.topleft {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white
 }
