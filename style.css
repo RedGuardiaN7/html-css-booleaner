@@ -29,7 +29,7 @@ h1 {
     
 }
 
-.subtitle {
+#subtitle {
     margin: 5px;
     color: grey;
     font-size: larger;
@@ -42,6 +42,7 @@ a {
 
 #date {
     margin-top: 5px;
+    margin-left: 5px;
     margin-bottom: 20px;
     color: grey;
     font-size: small;
@@ -61,4 +62,3 @@ a {
     margin-top: 3px;
     font-weight: bold;
 }
-
