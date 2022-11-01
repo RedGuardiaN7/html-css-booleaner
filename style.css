@@ -41,7 +41,8 @@ a {
 }
 
 #date {
-    margin: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
     color: grey;
     font-size: small;
 }
@@ -53,5 +54,11 @@ a {
 #img_2 {
     float: right;
     max-width: 45.75%;
+}
+
+#photo_subtitle {
+    font-size:x-small;
+    margin-top: 3px;
+    font-weight: bold;
 }
 
