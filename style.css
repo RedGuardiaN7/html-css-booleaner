@@ -62,3 +62,17 @@ a {
     margin-top: 3px;
     font-weight: bold;
 }
+
+th {
+    text-align: left;
+    background-color: rgb(26,170,230);
+    color: white
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(178,230,242);
+}
+
+table {
+    border-spacing: 0px;
+}
